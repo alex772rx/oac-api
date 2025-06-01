@@ -138,7 +138,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = [
-    "https://oac-dashboard-git-main-alex772rxs-projects.vercel.app/",
-    "oac-dashboard-fjzudaeza-alex772rxs-projects.vercel.app"
-]
+CORS_ALLOW_ALL_ORIGINS = True
