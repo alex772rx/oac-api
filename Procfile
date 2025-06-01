@@ -1,1 +1,1 @@
-web: gunicorn oac-api.wsgi
+web: gunicorn myproject.wsgi
